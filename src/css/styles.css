@@ -9,9 +9,8 @@
 @import url('./fonts.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
 
 /* Sections style */
 @import url('./header.css');
-@import url('./back-link.css');
+@import url('./hero.css');
 @import url('./footer.css');

@@ -1,0 +1,123 @@
+.hero-section {
+  /* background-image: image-set(
+    url('../img/hero/hero.avif') type('image/avif') 1x,
+    url('../img/hero/hero@2x.avif') type('image/avif') 2x,
+    url('../img/hero/hero.webp') type('image/webp') 1x,
+    url('../img/hero/hero@2x.webp') type('image/webp') 2x,
+    url('../img/hero/hero.jpg') type('image/jpeg') 1x,
+    url('../img/hero/hero@2x.jpg') type('image/jpeg') 2x
+  ); */
+
+  background: #ddf4ff;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 48px 0 0 0;
+}
+
+.hero__container {
+  padding: 0 16px;
+  margin: 0 auto;
+
+  width: 100%;
+  max-width: 375px;
+}
+
+.hero__title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.17647;
+}
+
+.hero__reversedWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.hero__desc {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.52941;
+  color: var(--jm3---text---card-ink);
+
+  margin-bottom: 24px;
+}
+
+.hero__subtitle {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.46667;
+  color: var(--jm3---brand---purple);
+}
+
+.hero__img {
+  width: 375px;
+  height: 418px;
+}
+
+.hero__imgWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 375px;
+
+  margin: 0 auto;
+  padding-top: 34px;
+
+  & .hero__cloud {
+    position: absolute;
+    bottom: 382px;
+    right: 16px;
+
+    width: 209px;
+    height: 108px;
+
+    @media screen and (max-width: 374px) {
+      right: -10px;
+    }
+  }
+
+  & .hero__smallCloud {
+    position: absolute;
+    top: 28px;
+    left: 19px;
+
+    width: 87px;
+    height: 45px;
+  }
+}
+
+.hero__google {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  width: 180px;
+  height: 53px;
+
+  border-radius: 8px;
+  padding: 0 10px;
+
+  background-color: black;
+
+  & .hero__btn_text {
+    display: flex;
+    flex-direction: column;
+
+    font-family: var(--font-family);
+
+    font-size: 12px;
+    color: var(--jm3---surface---white);
+
+    & span {
+      font-size: 20px;
+    }
+  }
+}
