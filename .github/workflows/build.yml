@@ -1,4 +1,4 @@
-name: Build and deploy to GitHub Pages
+name: Build Project
 
 on:
   push:
@@ -15,9 +15,3 @@ jobs:
         run: |
           npm install
           npm run build
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.0
-        with:
-          branch: gh-pages
-          folder: dist
