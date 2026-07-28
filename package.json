@@ -18,7 +18,11 @@
     "vite": "^5.4.21",
     "vite-plugin-image-optimizer": "^2.0.3"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Hyria Roman <hyrya.roman@gmail.com>",
+  "contributors": [
+    "Dmytro Levchenko",
+    "Irina Driga"
+  ],
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.2.0",
