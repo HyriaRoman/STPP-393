@@ -58,3 +58,53 @@ h3 {
     line-height: 32vw;
   }
 }
+
+.legal h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.legal h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.legal .section-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.legal {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.back-link {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  .legal h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .legal h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .legal .section-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .legal {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
