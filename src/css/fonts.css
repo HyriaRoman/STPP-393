@@ -1,3 +1,4 @@
+@import 'modern-normalize/modern-normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
@@ -15,14 +16,14 @@
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: var(--font-family);
   color: var(--jm3---text---body);
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Baloo 2', sans-serif;
+  font-family: var(--second-family);
   color: var(--jm3---text---heading);
 }
 
