@@ -1,73 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/jolly-match-3/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <script type="module" crossorigin src="/jolly-match-3/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/jolly-match-3/assets/index-ChjyUZDG.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/jolly-match-3/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanilla App Template</title>
-  <script type="module" crossorigin src="/jolly-match-3/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/jolly-match-3/assets/styles-D8JdeySv.css">
-</head>
+  <body>
+    
 
-<body>
-  <header class="header">
-  <div class="container">
-    <div class="wrapper">
-      <nav class="nav">
-        <a class="nav-logo" href="./index.html" aria-label="Site logo">
-          <svg class="nav-logo-icon" width="100" height="30">
-            <use href="/jolly-match-3/assets/sprite-E8vg0sBb.svg#logo"></use>
-          </svg>
-          <svg class="nav-logo-icon" width="100" height="30">
-            <use href="/jolly-match-3/assets/sprite-E8vg0sBb.svg#logo"></use>
-          </svg>
-        </a>
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__burger-wrapper">
-        <button type="button" class="burger-btn" data-action="open">Open menu</button>
-        <div class="burger-menu" data-visible="close">
-          <ul>
-            <li><a href="#">link-1</a></li>
-            <li><a href="#">link-2</a></li>
-            <li><a href="#">link-3</a></li>
-            <li><a href="#">link-4</a></li>
-          </ul>
-          <button type="button" class="btn-close" data-action="close">close</button>
-        </div>
-      </div>
+    <main>
+      <section class="hero-section">
+  <div class="hero__container">
+    <div class="hero__reversedWrapper">
+      <h1 class="hero__title">One Match. One Step Closer to Home.</h1>
+
+      <p class="hero__subtitle">Turn every match into a fresh start</p>
     </div>
-  </div>
-</header>
 
-  <main>
-  </main>
-
-  <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
+    <p class="hero__desc">
+      Restore a candy world through puzzles, teamwork, and lovable helpers.
     </p>
+
+    <a
+      class="hero__google"
+      href="https://play.google.com/store/apps/details?id=com.jollyco.jollybattlematch3&hl=en&gl=us"
+      target="_blank"
+      rel="noopener noreferrer">
+      <svg width="32" height="32">
+        <use href="../img/sprite.svg#google"></use>
+      </svg>
+
+      <p class="hero__btn_text">
+        GET IT ON<span class="hero__btn_span">Google Play</span>
+      </p>
+    </a>
   </div>
-</footer>
 
+  <div class="hero__imgWrapper">
+    <img
+      class="hero__cloud"
+      src="../img/hero/mobile/hero-cloud.png"
+      alt="cloud"
+      width="209"
+      height="108"
+      loading="lazy" />
+    <img
+      class="hero__smallCloud"
+      src="../img/hero/mobile/hero-small-cloud.png"
+      alt="big cloud"
+      width="87"
+      height="45"
+      loading="lazy" />
 
-</body>
+    <img
+      class="hero__img"
+      src="../img/hero/mobile/hero-mobile.png"
+      alt="hero"
+      width="375"
+      height="418"
+      loading="lazy" />
+  </div>
+</section>
+    </main>
 
+    
+
+  </body>
 </html>
