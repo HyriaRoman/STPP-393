@@ -1,3 +1,6 @@
+@import 'modern-normalize/modern-normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 :root {
   --jm3---brand---pink: #f15a9e;
   --jm3---brand---sky: #5fc4f4;
@@ -55,18 +58,11 @@
   --background-pink-soft: #ffe6f2;
   --state-focus: #7a5be7;
   --state-disabled: #c9c3cf;
+
+  --font-family: 'Nunito', sans-serif;
+  --second-family: 'Baloo 2', sans-serif;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
-
   background: var(--jm3---surface---cream);
-}
-
-main {
-  flex-grow: 1;
 }
