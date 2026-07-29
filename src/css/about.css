@@ -140,11 +140,15 @@
   display: none;
 
   @media screen and (min-width: 1440px) {
-    display: flex;
+    display: block;
 
     object-fit: cover;
     width: 1200px;
     height: 460px;
+    border-radius: 28px;
+    box-shadow: 0 14px 28px 0 rgba(56, 35, 68, 0.12);
+
+    margin-bottom: 48px;
   }
 }
 
