@@ -1,15 +1,37 @@
 .faq__subtitle {
   margin-bottom: 24px;
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 48px;
+  }
+}
+
+.faq__content {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 58px;
+  }
 }
 
 .faq__image {
   margin-bottom: 24px;
+
+  @media screen and (min-width: 1440px) {
+    margin-top: -27px;
+  }
 }
 
 .faq__list {
   display: flex;
   flex-flow: column nowrap;
   gap: 24px;
+
+  flex-grow: 1;
+
+  @media screen and (min-width: 1440px) {
+    gap: 12px;
+  }
 }
 
 .faq__question {
@@ -20,36 +42,57 @@
   border: 1px solid var(--jm3---stroke---faq);
   border-radius: 18px;
 
+  @media screen and (min-width: 1440px) {
+    padding: 16px 24px;
+  }
+
   &:open,
   &[open] {
     background: #f8f2ff;
     padding: 16px 16px 12px;
+
+    @media screen and (min-width: 1440px) {
+      padding: 20px 24px;
+      /* Uncomment to avoid moving text when opening */
+      /* padding: 16px 24px; */
+    }
   }
 
   & > summary {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     min-height: 44px;
 
-    font-family: var(--second-family);
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 24px;
-    color: var(--jm3---text---heading);
-
-    position: relative;
+    @media screen and (min-width: 1440px) {
+      min-height: 48px;
+    }
 
     & .faq__question__title {
       display: inline-block;
       vertical-align: middle;
-      max-width: 251px;
+      max-width: 188px;
+
+      font-family: var(--second-family);
+      font-weight: 600;
+      font-size: 17px;
+
+      color: var(--jm3---text---heading);
+      line-height: 23px;
+
+      @media screen and (min-width: 1440px) {
+        max-width: none;
+        font-size: 24px;
+        line-height: 32px;
+      }
     }
 
     & .faq__icon {
-      position: absolute;
-      top: 1px;
-      right: 0;
+      @media screen and (min-width: 1440px) {
+        width: 48px;
+        height: 48px;
+      }
     }
 
     & .faq__icon--open {
@@ -64,9 +107,14 @@
   &[open] > summary {
     margin-bottom: 14px;
 
+    @media screen and (min-width: 1440px) {
+      margin-bottom: 10px;
+    }
+
     & .faq__icon--open {
       display: none;
     }
+
     & .faq__icon--close {
       display: block;
     }
@@ -76,5 +124,10 @@
     font-size: 15px;
     line-height: 22px;
     color: var(--jm3---text---body);
+
+    @media screen and (min-width: 1440px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
   }
 }

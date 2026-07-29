@@ -13,6 +13,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --font-family: 'Nunito', sans-serif;
+  --second-family: 'Baloo 2', sans-serif;
 }
 
 body {
