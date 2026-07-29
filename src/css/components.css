@@ -1,0 +1,8 @@
+.section__title {
+  margin-bottom: 8px;
+}
+
+.section__subtitle {
+  margin-bottom: 24px;
+  color: var(--jm3---text---card-ink);
+}
