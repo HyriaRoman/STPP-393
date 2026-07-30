@@ -148,6 +148,26 @@
       line-height: 1.25;
     }
   }
+
+  & .about__imgPuzzles {
+    width: 76px;
+    height: 79px;
+  }
+
+  & .about__imgRewards {
+    width: 80px;
+    height: 76px;
+  }
+
+  & .about__imgLocations {
+    width: 80px;
+    height: 80px;
+  }
+
+  & .about__imgAdventures {
+    width: 73px;
+    height: 80px;
+  }
 }
 
 .about__imgDesktop {
