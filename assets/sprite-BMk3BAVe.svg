@@ -1,0 +1,67 @@
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"
+  xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="google" viewBox="0 0 32 32">
+      <mask id="mask0_87_8320" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="7" y="3"
+        width="24" height="26">
+        <path
+          d="M30.0484 14.4004C31.3172 15.0986 31.3172 16.9014 30.0484 17.5996L9.75627 28.7659C8.52052 29.4459 7 28.5634 7 27.1663L7 4.83374C7 3.43657 8.52052 2.55415 9.75627 3.23415L30.0484 14.4004Z"
+          fill="#C4C4C4" />
+      </mask>
+      <g mask="url(#mask0_87_8320)">
+        <path
+          d="M7.63473 28.5466L20.2923 15.8179L7.84319 3.29883C7.34653 3.61721 7 4.1669 7 4.8339V27.1664C7 27.7355 7.25223 28.2191 7.63473 28.5466Z"
+          fill="url(#paint0_linear_87_8320)" />
+        <path
+          d="M30.048 14.4003C31.3169 15.0985 31.3169 16.9012 30.048 17.5994L24.9287 20.4165L20.292 15.8175L24.6923 11.4531L30.048 14.4003Z"
+          fill="url(#paint1_linear_87_8320)" />
+        <path
+          d="M24.9292 20.4168L20.2924 15.8179L7.63477 28.5466C8.19139 29.0232 9.02389 29.1691 9.75635 28.766L24.9292 20.4168Z"
+          fill="url(#paint2_linear_87_8320)" />
+        <path
+          d="M7.84277 3.29865L20.2919 15.8177L24.6922 11.4533L9.75583 3.23415C9.11003 2.87878 8.38646 2.95013 7.84277 3.29865Z"
+          fill="url(#paint3_linear_87_8320)" />
+      </g>
+      <defs>
+        <linearGradient id="paint0_linear_87_8320" x1="15.6769" y1="10.874" x2="7.07106"
+          y2="19.5506" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#00C3FF" />
+          <stop offset="1" stop-color="#1BE2FA" />
+        </linearGradient>
+        <linearGradient id="paint1_linear_87_8320" x1="20.292" y1="15.8176" x2="31.7381"
+          y2="15.8176" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FFCE00" />
+          <stop offset="1" stop-color="#FFEA00" />
+        </linearGradient>
+        <linearGradient id="paint2_linear_87_8320" x1="7.36932" y1="30.1004" x2="22.595"
+          y2="17.8937" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#DE2453" />
+          <stop offset="1" stop-color="#FE3944" />
+        </linearGradient>
+        <linearGradient id="paint3_linear_87_8320" x1="8.10725" y1="1.90137" x2="22.5971"
+          y2="13.7365" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#11D574" />
+          <stop offset="1" stop-color="#01F176" />
+        </linearGradient>
+      </defs>
+    </symbol>
+    <symbol id="icon-faq-open" viewBox="0 0 44 44" fill="none">
+      <rect fill="#f7f1ff" width="43" height="43" rx="21.5" x="0.5" y="0.5" />
+      <rect stroke="#d9c7f0" width="43" height="43" rx="21.5" x="0.5" y="0.5" />
+      <path fill="#7a5be7"
+        d="M26.4295 23.12h-9.72c-0.08-0.144-0.152-0.304-0.216-0.48-0.048-0.192-0.072-0.408-0.072-0.648 0-0.432 0.104-0.744 0.312-0.936 0.208-0.208 0.48-0.312 0.816-0.312h9.744c0.064 0.128 0.128 0.296 0.192 0.504s0.096 0.432 0.096 0.672c0 0.416-0.104 0.72-0.312 0.912s-0.488 0.288-0.84 0.288zM23.3815 17.576v9.96c-0.144 0.032-0.328 0.072-0.552 0.12-0.224 0.032-0.456 0.048-0.696 0.048-0.48 0-0.84-0.088-1.08-0.264s-0.36-0.528-0.36-1.056v-9.936c0.144-0.032 0.328-0.072 0.552-0.12s0.464-0.072 0.72-0.072c0.464 0 0.816 0.096 1.056 0.288 0.24 0.176 0.36 0.52 0.36 1.032z" />
+    </symbol>
+    <symbol id="icon-faq-close" viewBox="0 0 44 44" fill="none">
+      <rect fill="#f7f1ff" width="43" height="43" rx="21.5" x="0.5" y="0.5" />
+      <rect stroke="#d9c7f0" width="43" height="43" rx="21.5" x="0.5" y="0.5" />
+      <path fill="#7a5be7"
+        d="M26.0114 23.12h-8.88c-0.08-0.144-0.152-0.304-0.216-0.48-0.048-0.192-0.072-0.408-0.072-0.648 0-0.432 0.104-0.744 0.312-0.936 0.208-0.208 0.48-0.312 0.816-0.312h8.904c0.064 0.128 0.12 0.296 0.168 0.504 0.064 0.208 0.096 0.432 0.096 0.672 0 0.416-0.104 0.72-0.312 0.912-0.192 0.192-0.464 0.288-0.816 0.288z" />
+    </symbol>
+    <symbol id="icon-burger-menu" viewBox="0 0 44 44" fill="#fff">
+    <rect fill="#352044" width="44" height="44" rx="22" />
+    <rect width="18" height="2" rx="1" x="13" y="14" />
+    <rect width="18" height="2" rx="1" x="13" y="21" />
+    <rect width="18" height="2" rx="1" x="13" y="28" />
+</symbol>
+  </defs>
+</svg>
