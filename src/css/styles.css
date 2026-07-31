@@ -9,6 +9,7 @@
 @import url('./fonts.css');
 @import url('./base.css');
 @import url('./container.css');
+@import url('./components.css');
 @import url('./section.css');
 
 /* Sections style */
@@ -17,6 +18,7 @@
 @import url('./about.css');
 @import url('./features.css');
 @import url('./link.css');
+@import url('./faq.css');
 @import url('./footer.css');
 
 @import url('./privacy.css');

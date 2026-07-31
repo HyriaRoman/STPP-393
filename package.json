@@ -1,11 +1,11 @@
 {
-  "name": "jolly-match-3",
+  "name": "STPP-393",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/jolly-match-3/",
+    "build": "vite build --base=/STPP-393/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview"
   },
