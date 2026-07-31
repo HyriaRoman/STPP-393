@@ -9,10 +9,30 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  min-height: 72px;
+  padding: 12px 16px;
+  @media screen and (min-width: 1440px) {
+    padding: 10px 16px;
+  }
+}
+
+.header__logo-wrapper {
+  flex-grow: 1;
+  @media screen and (min-width: 1440px) {
+    padding: 0 12px;
+  }
+}
+
+.header__logo {
+  @media screen and (min-width: 1440px) {
+    width: 80px;
+    height: 60px;
+  }
 }
 
 .header-dropdown {
+  display: flex;
+  flex-flow: column nowrap;
+
   position: absolute;
   top: 72px;
   left: 0;
@@ -22,8 +42,21 @@
   background: var(--jm3---surface---warm);
   z-index: 100;
 
-  &[data-visible='close'] {
-    display: none;
+  @media screen and (max-width: 1439.99px) {
+    &[data-visible='close'] {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    flex-grow: 1;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    padding: 0;
+    background: none;
   }
 }
 
@@ -40,6 +73,16 @@
     padding: 12px 0 24px;
     border-bottom: 1px solid #e8d9e7;
   }
+
+  @media screen and (min-width: 1440px) {
+    flex-flow: row nowrap;
+    gap: 24px;
+
+    & > * {
+      padding: 0;
+      border-bottom: none;
+    }
+  }
 }
 
 .header-nav__link {
@@ -48,6 +91,21 @@
   font-size: 18px;
   line-height: 28px;
   color: var(--jm3---text---heading);
+
+  @media screen and (min-width: 1440px) {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: var(--color-text);
+  }
+}
+
+.playstore-link__image {
+  @media screen and (min-width: 1440px) {
+    width: 151px;
+    height: 44px;
+  }
 }
 
 .header__burger-menu-btn {
@@ -56,4 +114,8 @@
   padding: 0;
   background: none;
   border: none;
+
+  @media screen and (min-width: 1440px) {
+    display: none;
+  }
 }
