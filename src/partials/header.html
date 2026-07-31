@@ -1,0 +1,54 @@
+<header class="header-section">
+  <div class="container header">
+    <div class="header__logo-wrapper">
+      <picture>
+        <source
+          src="/img/logo/logo-header-desktop.png"
+          media="(min-width: 1440px)" />
+        <img
+          src="/img/logo/logo-header-desktop.png"
+          alt="Jolly Match 3"
+          width="64"
+          height="48"
+          class="header__logo" />
+      </picture>
+    </div>
+
+    <div class="header-dropdown" data-visible="close">
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li><a href="#" class="header-nav__link">About the Game</a></li>
+          <li><a href="#" class="header-nav__link">Features</a></li>
+          <li><a href="#" class="header-nav__link">Characters</a></li>
+          <li><a href="#" class="header-nav__link">Reviews</a></li>
+          <li><a href="#" class="header-nav__link">FAQ</a></li>
+          <li><a href="#" class="header-nav__link">Why Download</a></li>
+        </ul>
+      </nav>
+
+      <a
+        class="playstore-link header-nav__playstore-link"
+        href="https://play.google.com/store/apps/details?id=com.jollyco.jollybattlematch3&hl=en&gl=us"
+        target="_blank"
+        rel="noopener noreferrer">
+        <picture>
+          <source
+            src="/img/googlePlay/header-desktop.png"
+            media="(min-width: 1440px)" />
+          <img
+            src="/img/googlePlay/mobile.png"
+            alt="Get Jolly Match 3 on Google Play"
+            width="180"
+            height="53"
+            class="playstore-link__image" />
+        </picture>
+      </a>
+    </div>
+
+    <button class="header__burger-menu-btn" data-action="toggle">
+      <svg width="44" height="44" class="header__burger-menu-icon">
+        <use href="/img/sprite.svg#icon-burger-menu" />
+      </svg>
+    </button>
+  </div>
+</header>
