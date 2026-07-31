@@ -1,0 +1,88 @@
+.privacy__main {
+  padding-bottom: 56px;
+}
+
+.privacy__title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  color: var(--jm3---text---legal-heading);
+
+  margin-bottom: 36px;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 56px;
+    line-height: 1.14286;
+  }
+}
+
+.privacy__wrapper {
+  border-radius: 20px;
+  padding-block: 28px 32px;
+  padding-inline: 20px;
+
+  box-shadow: 0 12px 32px 0 rgba(51, 31, 64, 0.1);
+  background: var(--jm3---surface---legal-content);
+}
+
+.privacy__section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-bottom: 16px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.privacy__section-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.30769;
+  color: var(--jm3---text---legal-heading);
+}
+
+.privacy__dividerUpper {
+  border-top: 1px solid var(--jm3---stroke---legal-divider);
+  padding-top: 16px;
+}
+
+.privacy__dividerLower {
+  border-bottom: 1px solid var(--jm3---stroke---legal-divider);
+  padding-bottom: 16px;
+}
+
+.privacy__subtitle {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--jm3---text---legal-heading);
+}
+
+.privacy__desc {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--jm3---text---legal-body);
+}
+
+.privacy__back-link {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  padding: 18px 0;
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--jm3---brand---purple);
+}

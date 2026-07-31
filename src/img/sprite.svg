@@ -37,5 +37,8 @@
         </linearGradient>
       </defs>
     </symbol>
+    <symbol id="back-link" viewBox="0 0 20 20" fill="none">
+      <path d="M11.75 4.5L6.25 10L11.75 15.5M6.5 10H16" stroke="#7A5BE7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
   </defs>
 </svg>
