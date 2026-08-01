@@ -14,7 +14,7 @@
       </picture>
     </a>
 
-    <div class="header-dropdown" data-visible="close">
+    <div class="header-dropdown" data-visible="false">
       <nav class="header-nav">
         <ul class="header-nav__list">
           <li><a href="#" class="header-nav__link">About the Game</a></li>
@@ -45,9 +45,17 @@
       </a>
     </div>
 
-    <button class="header__burger-menu-btn" data-action="toggle">
+    <button
+      class="header__burger-menu-btn"
+      data-action="toggle"
+      data-is-menu-open="false">
       <svg width="44" height="44" class="header__burger-menu-icon">
-        <use href="/img/sprite.svg#icon-burger-menu" />
+        <use
+          href="/img/sprite.svg#icon-burger-menu-closed"
+          class="header__burger-menu-icon--closed" />
+        <use
+          href="/img/sprite.svg#icon-burger-menu-opened"
+          class="header__burger-menu-icon--opened" />
       </svg>
     </button>
   </div>
