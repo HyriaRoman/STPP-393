@@ -1,10 +1,10 @@
 <header class="header-section">
   <div class="container header">
-    <div class="header__logo-wrapper">
+    <a class="header__logo-wrapper" href="/">
       <picture>
         <source
-          src="/img/logo/logo-header-desktop.png"
-          media="(min-width: 1440px)" />
+          srcset="/img/logo/logo-header-desktop.png"
+          media="(width >= 1440px)" />
         <img
           src="/img/logo/logo-header-desktop.png"
           alt="Jolly Match 3"
@@ -12,9 +12,9 @@
           height="48"
           class="header__logo" />
       </picture>
-    </div>
+    </a>
 
-    <div class="header-dropdown" data-visible="close">
+    <div class="header-dropdown" data-visible="false">
       <nav class="header-nav">
         <ul class="header-nav__list">
           <li><a href="#" class="header-nav__link">About the Game</a></li>
@@ -33,8 +33,8 @@
         rel="noopener noreferrer">
         <picture>
           <source
-            src="/img/googlePlay/header-desktop.png"
-            media="(min-width: 1440px)" />
+            srcset="/img/googlePlay/header-desktop.png"
+            media="(width >= 1440px)" />
           <img
             src="/img/googlePlay/mobile.png"
             alt="Get Jolly Match 3 on Google Play"
@@ -45,9 +45,17 @@
       </a>
     </div>
 
-    <button class="header__burger-menu-btn" data-action="toggle">
+    <button
+      class="header__burger-menu-btn"
+      data-action="toggle"
+      data-is-menu-open="false">
       <svg width="44" height="44" class="header__burger-menu-icon">
-        <use href="/img/sprite.svg#icon-burger-menu" />
+        <use
+          href="/img/sprite.svg#icon-burger-menu-closed"
+          class="header__burger-menu-icon--closed" />
+        <use
+          href="/img/sprite.svg#icon-burger-menu-opened"
+          class="header__burger-menu-icon--opened" />
       </svg>
     </button>
   </div>

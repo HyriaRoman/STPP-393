@@ -43,7 +43,7 @@
   z-index: 100;
 
   @media screen and (max-width: 1439.99px) {
-    &[data-visible='close'] {
+    &[data-visible='false'] {
       display: none;
     }
   }
@@ -174,5 +174,25 @@
 
   @media screen and (min-width: 1440px) {
     display: none;
+  }
+
+  &[data-is-menu-open='true'] {
+    & .header__burger-menu-icon--opened {
+      display: block;
+    }
+
+    & .header__burger-menu-icon--closed {
+      display: none;
+    }
+  }
+
+  &[data-is-menu-open='false'] {
+    & .header__burger-menu-icon--opened {
+      display: none;
+    }
+
+    & .header__burger-menu-icon--closed {
+      display: block;
+    }
   }
 }
