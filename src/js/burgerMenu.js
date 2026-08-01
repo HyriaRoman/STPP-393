@@ -4,15 +4,16 @@ const toggleBtnEl = document.querySelector('[data-action="toggle"]');
 const burgerMenuEl = document.querySelector('[data-visible]');
 
 openBtnEl?.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'open';
+  burgerMenuEl.dataset.visible = 'true';
 });
 
 closeBtnEl?.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'close';
+  burgerMenuEl.dataset.visible = 'false';
 });
 
 toggleBtnEl?.addEventListener('click', e => {
-  const isClosed = burgerMenuEl.dataset.visible === 'close';
-  const newState = isClosed ? 'open' : 'close';
+  const isOpen = burgerMenuEl.dataset.visible === 'true';
+  const newState = isOpen ? 'false' : 'true';
   burgerMenuEl.dataset.visible = newState;
+  toggleBtnEl.dataset.isMenuOpen = newState;
 });
