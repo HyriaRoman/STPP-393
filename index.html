@@ -25,17 +25,17 @@
 
     <link rel="icon" type="image/png" href="/STPP-393/favicon.png" />
     <script type="module" crossorigin src="/STPP-393/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/STPP-393/assets/index-B7Xcq9qH.css">
+    <link rel="stylesheet" crossorigin href="/STPP-393/assets/index-wOHtgm6i.css">
   </head>
 
   <body>
     <header class="header-section">
   <div class="container header">
-    <div class="header__logo-wrapper">
+    <a class="header__logo-wrapper" href="/">
       <picture>
         <source
-          src="/STPP-393/assets/logo-header-desktop-BUoddzTs.png"
-          media="(min-width: 1440px)" />
+          srcset="/STPP-393/assets/logo-header-desktop-BUoddzTs.png"
+          media="(width >= 1440px)" />
         <img
           src="/STPP-393/assets/logo-header-desktop-BUoddzTs.png"
           alt="Jolly Match 3"
@@ -43,9 +43,9 @@
           height="48"
           class="header__logo" />
       </picture>
-    </div>
+    </a>
 
-    <div class="header-dropdown" data-visible="close">
+    <div class="header-dropdown" data-visible="false">
       <nav class="header-nav">
         <ul class="header-nav__list">
           <li><a href="#" class="header-nav__link">About the Game</a></li>
@@ -64,8 +64,8 @@
         rel="noopener noreferrer">
         <picture>
           <source
-            src="/STPP-393/assets/header-desktop-BJzYHYti.png"
-            media="(min-width: 1440px)" />
+            srcset="/STPP-393/assets/header-desktop-BJzYHYti.png"
+            media="(width >= 1440px)" />
           <img
             src="/STPP-393/assets/mobile-COaWR77Z.png"
             alt="Get Jolly Match 3 on Google Play"
@@ -76,9 +76,17 @@
       </a>
     </div>
 
-    <button class="header__burger-menu-btn" data-action="toggle">
+    <button
+      class="header__burger-menu-btn"
+      data-action="toggle"
+      data-is-menu-open="false">
       <svg width="44" height="44" class="header__burger-menu-icon">
-        <use href="/STPP-393/assets/sprite-BMk3BAVe.svg#icon-burger-menu" />
+        <use
+          href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-burger-menu-closed"
+          class="header__burger-menu-icon--closed" />
+        <use
+          href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-burger-menu-opened"
+          class="header__burger-menu-icon--opened" />
       </svg>
     </button>
   </div>
@@ -106,7 +114,7 @@
     target="_blank"
     rel="noopener noreferrer">
     <svg width="32" height="32">
-      <use href="/STPP-393/assets/sprite-BMk3BAVe.svg#google"></use>
+      <use href="/STPP-393/assets/sprite-D-tAWZgD.svg#google"></use>
     </svg>
 
     <span class="google__btn_text">
@@ -168,11 +176,11 @@
               >
               <svg width="44" height="44" class="faq__icon">
                 <use
-                  href="/STPP-393/assets/sprite-BMk3BAVe.svg#icon-faq-open"
+                  href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-faq-open"
                   class="faq__icon--open"
                 />
                 <use
-                  href="/STPP-393/assets/sprite-BMk3BAVe.svg#icon-faq-close"
+                  href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-faq-close"
                   class="faq__icon--close"
                 />
               </svg>
@@ -188,11 +196,11 @@
               >
               <svg width="44" height="44" class="faq__icon">
                 <use
-                  href="/STPP-393/assets/sprite-BMk3BAVe.svg#icon-faq-open"
+                  href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-faq-open"
                   class="faq__icon--open"
                 />
                 <use
-                  href="/STPP-393/assets/sprite-BMk3BAVe.svg#icon-faq-close"
+                  href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-faq-close"
                   class="faq__icon--close"
                 />
               </svg>
@@ -208,11 +216,11 @@
               >
               <svg width="44" height="44" class="faq__icon">
                 <use
-                  href="/STPP-393/assets/sprite-BMk3BAVe.svg#icon-faq-open"
+                  href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-faq-open"
                   class="faq__icon--open"
                 />
                 <use
-                  href="/STPP-393/assets/sprite-BMk3BAVe.svg#icon-faq-close"
+                  href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-faq-close"
                   class="faq__icon--close"
                 />
               </svg>
@@ -228,11 +236,11 @@
               >
               <svg width="44" height="44" class="faq__icon">
                 <use
-                  href="/STPP-393/assets/sprite-BMk3BAVe.svg#icon-faq-open"
+                  href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-faq-open"
                   class="faq__icon--open"
                 />
                 <use
-                  href="/STPP-393/assets/sprite-BMk3BAVe.svg#icon-faq-close"
+                  href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-faq-close"
                   class="faq__icon--close"
                 />
               </svg>
@@ -248,11 +256,11 @@
               >
               <svg width="44" height="44" class="faq__icon">
                 <use
-                  href="/STPP-393/assets/sprite-BMk3BAVe.svg#icon-faq-open"
+                  href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-faq-open"
                   class="faq__icon--open"
                 />
                 <use
-                  href="/STPP-393/assets/sprite-BMk3BAVe.svg#icon-faq-close"
+                  href="/STPP-393/assets/sprite-D-tAWZgD.svg#icon-faq-close"
                   class="faq__icon--close"
                 />
               </svg>
@@ -465,11 +473,11 @@
     <footer class="footer">
   <div class="container footer__container">
     <div class="footer__content">
-      <div class="footer__logo-wrapper">
+      <a class="footer__logo-wrapper" href="/">
         <picture>
           <source
-            src="/STPP-393/assets/logo-footer-desktop-CdyLcGgS.png"
-            media="(min-width: 1440px)" />
+            srcset="/STPP-393/assets/logo-footer-desktop-CdyLcGgS.png"
+            media="(width >= 1440px)" />
           <img
             src="/STPP-393/assets/logo-footer-mobile-T7ubga1n.png"
             alt="Jolly Match 3"
@@ -477,7 +485,7 @@
             height="69"
             class="footer__logo" />
         </picture>
-      </div>
+      </a>
 
       <ul class="footer-nav">
         <li><a href="#" class="footer-nav__link">Privacy Policy</a></li>
