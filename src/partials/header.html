@@ -1,10 +1,10 @@
 <header class="header-section">
   <div class="container header">
-    <div class="header__logo-wrapper">
+    <a class="header__logo-wrapper" href="/">
       <picture>
         <source
-          src="/img/logo/logo-header-desktop.png"
-          media="(min-width: 1440px)" />
+          srcset="/img/logo/logo-header-desktop.png"
+          media="(width >= 1440px)" />
         <img
           src="/img/logo/logo-header-desktop.png"
           alt="Jolly Match 3"
@@ -12,7 +12,7 @@
           height="48"
           class="header__logo" />
       </picture>
-    </div>
+    </a>
 
     <div class="header-dropdown" data-visible="close">
       <nav class="header-nav">
@@ -33,8 +33,8 @@
         rel="noopener noreferrer">
         <picture>
           <source
-            src="/img/googlePlay/header-desktop.png"
-            media="(min-width: 1440px)" />
+            srcset="/img/googlePlay/header-desktop.png"
+            media="(width >= 1440px)" />
           <img
             src="/img/googlePlay/mobile.png"
             alt="Get Jolly Match 3 on Google Play"
