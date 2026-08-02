@@ -1,3 +1,7 @@
+.features-section {
+  background: var(--jm3---surface---warm);
+}
+
 .features__title {
   font-family: var(--second-family);
   font-weight: 700;
