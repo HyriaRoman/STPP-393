@@ -130,6 +130,7 @@
 .playstore-link {
   position: relative;
   outline: none;
+  display: inline-block;
 
   &::before {
     content: '';

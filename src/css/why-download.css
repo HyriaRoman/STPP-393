@@ -1,0 +1,31 @@
+.why-download-section {
+  background: #f1ebff;
+}
+
+.why-download__title {
+  margin-bottom: 24px;
+}
+
+.why-download__subtitle {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--jm3---brand---purple);
+}
+
+.why-download__text {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--jm3---text---card-ink);
+}
+
+.why-download__playstore-link {
+  margin-bottom: 17px;
+}
+
+.why-download__decor {
+  margin: 0 -16px;
+  max-width: none;
+}
