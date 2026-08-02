@@ -127,44 +127,6 @@
   }
 }
 
-.playstore-link {
-  position: relative;
-  outline: none;
-
-  &::before {
-    content: '';
-    display: block;
-
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    bottom: -8px;
-    left: -8px;
-
-    border-radius: 12px;
-  }
-
-  &:hover::before {
-    border: 2px solid var(--jm3---brand---pink);
-  }
-
-  &:active::before {
-    background: #f1ebff;
-    z-index: -1;
-  }
-
-  &:focus::before {
-    border: 3px solid var(--jm3---brand---purple);
-  }
-}
-
-.playstore-link__image {
-  @media screen and (min-width: 1440px) {
-    width: 151px;
-    height: 44px;
-  }
-}
-
 .header__burger-menu-btn {
   display: block;
   margin: 0;
