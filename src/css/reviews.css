@@ -4,12 +4,22 @@
 
 .reviews__subtitle {
   margin-bottom: 20px;
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 48px;
+  }
 }
 
 .review-list {
   display: flex;
   flex-flow: column nowrap;
   gap: 20px;
+
+  @media screen and (min-width: 1440px) {
+    flex-flow: row wrap;
+    gap: 24px;
+    justify-content: center;
+  }
 }
 
 .review-card {
@@ -19,24 +29,32 @@
   box-shadow: 0 8px 20px 0 rgba(51, 31, 64, 0.1);
   background: var(--jm3---surface---white);
 
-  &:nth-child(5n+1) {
+  &:nth-child(5n + 1) {
     border-color: #f5a9c8;
   }
-  
-  &:nth-child(5n+2){
+
+  &:nth-child(5n + 2) {
     border-color: #9dddf7;
   }
 
-  &:nth-child(5n+3){
+  &:nth-child(5n + 3) {
     border-color: #c6b0f7;
   }
 
-  &:nth-child(5n+4){
+  &:nth-child(5n + 4) {
     border-color: #afe0aa;
   }
 
-  &:nth-child(5n){
+  &:nth-child(5n) {
     border-color: #f0d070;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: calc((100% - 24px * 2) / 3);
+    padding: 28px 22px;
+    box-shadow: 0 8px 24px 0 rgba(56, 35, 68, 0.09);
+    background: var(--jm3---surface---review-faq);
+    min-height: 220px;
   }
 }
 
@@ -53,6 +71,12 @@
   justify-items: start;
   align-items: stretch;
   margin-bottom: 14px;
+
+  @media screen and (min-width: 1440px) {
+    grid-template-columns: 64px auto;
+    gap: 4px 16px;
+    margin-bottom: 12px;
+  }
 }
 
 .review-card__avatar {
@@ -60,6 +84,12 @@
   display: block;
   width: 48px;
   height: 48px;
+
+  @media screen and (min-width: 1440px) {
+    width: 64px;
+    height: 64px;
+    margin-top: -5px;
+  }
 }
 
 .review-card__name {
@@ -69,6 +99,11 @@
   font-size: 18px;
   line-height: 24px;
   color: var(--jm3---text---heading);
+
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 .review-card__rating {
@@ -78,4 +113,12 @@
   font-size: 17px;
   line-height: 17px;
   color: #d98a00;
+
+  @media screen and (min-width: 1440px) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #c97900;
+  }
 }
