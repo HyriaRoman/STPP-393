@@ -1,9 +1,10 @@
 .why-download-section {
   background: #f1ebff;
-  
+
   @media screen and (min-width: 1440px) {
     padding-bottom: 63px;
 
+    background-color: #eae0f9;
     background-image: image-set(
       url('/img/why-download/why-download-desktop@1x.jpg') 1x,
       url('/img/why-download/why-download-desktop@2x.jpg') 2x
