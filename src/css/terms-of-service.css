@@ -1,0 +1,44 @@
+.tos__title {
+  margin-bottom: 36px;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0;
+  color: var(--jm3---text---legal-heading);
+}
+
+.tos__container {
+  padding: 0 16px 55px;
+}
+
+.tos__text {
+  border-radius: 20px;
+  padding: 28px 20px 16px;
+
+  box-shadow: 0 12px 32px 0 rgba(51, 31, 64, 0.1);
+  background: var(--jm3---surface---legal-content);
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--jm3---text---legal-body);
+  
+  & > P {
+    margin-bottom: 16px;
+  }
+
+  & > h2 {
+    padding-top: 15px;
+    margin-bottom: 16px;
+
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--jm3---text---legal-heading);
+
+    border-top: 1px solid var(--jm3---stroke---legal-divider);
+  }
+}
