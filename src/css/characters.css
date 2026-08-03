@@ -37,11 +37,6 @@
   will-change: transform;
   gap: 16px;
 
-  /* @media (max-width: 1439px) {
-    margin-left: -16px;
-    padding-right: 16px;
-  } */
-
   @media screen and (min-width: 1440px) {
     flex-wrap: wrap;
     gap: 16px;
@@ -229,7 +224,7 @@
   margin-top: 24px;
 }
 
-.characters__dot {
+[data-carousel-dot] {
   width: 8px;
   height: 8px;
   border-radius: 4px;
@@ -241,7 +236,7 @@
     transform 200ms ease-in-out;
 }
 
-.characters__dot--active {
+[data-carousel-dot][data-active] {
   width: 20px;
   height: 8px;
   border-radius: 100%;
