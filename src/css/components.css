@@ -1,3 +1,7 @@
+.prevent-scroll {
+  overflow: hidden;
+}
+
 .section {
   padding: 48px 0;
   @media screen and (min-width: 1440px) {
@@ -26,6 +30,7 @@
   position: relative;
   outline: none;
   display: inline-block;
+  width: fit-content;
 
   &::before {
     content: '';

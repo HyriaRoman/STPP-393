@@ -1,7 +1,10 @@
 .header-section {
+  position: sticky;
+  top: 0;
   box-shadow: 0 4px 18px 0 rgba(59, 41, 74, 0.1);
   background: var(--jm3---surface---header);
   border: 1px solid #eedbea;
+  z-index: 100;
 }
 
 .header {
@@ -37,10 +40,10 @@
   top: 72px;
   left: 0;
   right: 0;
-  bottom: 0;
+  height: 100vh;
   padding: 32px calc(50vw - 375px / 2 + 24px) 40px;
   background: var(--jm3---surface---warm);
-  z-index: 100;
+  z-index: 200;
 
   @media screen and (max-width: 1439.99px) {
     &[data-visible='false'] {
@@ -56,6 +59,7 @@
     position: relative;
     top: 0;
     padding: 0;
+    height: auto;
     background: none;
   }
 }
