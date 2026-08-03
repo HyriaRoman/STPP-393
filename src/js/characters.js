@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const dot = document.createElement('button');
 
     dot.type = 'button';
-    dot.className = 'characters__dot';
+    dot.dataset.carouselDot = '';
     dot.setAttribute('aria-label', `Go to slide ${index + 1}`);
 
     if (index === 0) {
-      dot.classList.add('characters__dot--active');
+      dot.dataset.active = '';
     }
 
     dot.addEventListener('click', () => {
@@ -34,11 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
     dotsContainer.append(dot);
   });
 
-  const dots = dotsContainer.querySelectorAll('.characters__dot');
+  const dots = dotsContainer.querySelectorAll('[data-carousel-dot]');
 
   function updateDots() {
     dots.forEach((dot, index) => {
-      dot.classList.toggle('characters__dot--active', index === currentIndex);
+      dot.toggleAttribute('data-active', index === currentIndex);
     });
   }
 
