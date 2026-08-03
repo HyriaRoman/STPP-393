@@ -40,7 +40,7 @@
   top: 72px;
   left: 0;
   right: 0;
-  bottom: 0;
+  height: 100vh;
   padding: 32px calc(50vw - 375px / 2 + 24px) 40px;
   background: var(--jm3---surface---warm);
   z-index: 200;
