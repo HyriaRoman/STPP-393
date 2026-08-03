@@ -1,5 +1,9 @@
 .tos {
   background: var(--jm3---surface---legal-page);
+
+  & .header__burger-menu-btn {
+    display: none;
+  }
 }
 
 .tos__title {

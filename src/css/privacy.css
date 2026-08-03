@@ -1,3 +1,7 @@
+.privacy .header__burger-menu-btn {
+  display: none;
+}
+
 .privacy__main {
   padding-bottom: 56px;
 }
